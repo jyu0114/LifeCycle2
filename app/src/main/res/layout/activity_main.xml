@@ -11,7 +11,13 @@
     tools:context="com.test.myapp.MainActivity">
 
     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccent"
+        android:textColor="@color/colorPrimaryDark"
+        android:text="ggggggggg" />
+    <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!" />
+        android:src="@drawable/hu6"/>
 </RelativeLayout>
